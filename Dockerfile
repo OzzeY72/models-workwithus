@@ -9,5 +9,6 @@ COPY . .
 
 ENV BOT_TOKEN=""
 ENV API_URL=""
+ENV API_URL_HTTPS=""
 
 CMD ["python", "bot.py"]
