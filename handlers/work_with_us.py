@@ -18,6 +18,7 @@ async def work_with_us(callback: CallbackQuery):
                 InlineKeyboardButton(
                     text="Work with us",
                     web_app=WebAppInfo(url=f"{API_URL}/static/miniapp/index.html")
+                    # web_app=WebAppInfo(url=f"https://837f9dda05fd.ngrok-free.app/")
                 )
             ]
         ]
